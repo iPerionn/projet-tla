@@ -8,4 +8,6 @@ Le but du projet à été de développer un langage de programmation pour créer
 
 Le jeu à été entièrement créer par M. Bourreau et modifier par nos soins pour y intégrer notre language.
 
-Nous avons créer une analyse lexicale et syntaxique, ainsi qu'un interpreteur.
+Nous avons créer une analyse lexicale et syntaxique, ainsi qu'un interpreteur (dossier analyses).
+
+Après l'installation du projet, il suffit de changer le chemin d'accès aux ressources dans le main.
