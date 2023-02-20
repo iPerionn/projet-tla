@@ -1,0 +1,67 @@
+Niveau 5 (0,0) (0,13) ;
+wall : (0,1) 2 right ;
+wall : (5,1) 3 right ;
+wall : (11,1) ;
+wall : (1,2) 5 right ;
+wall : (7,2) ;
+wall : (7,3) 13 right ;
+wall : (17,4) ;
+wall : (0,6) 20 right ;
+wall : (6,7) ;
+
+wall : (14,7) 2 down ;
+wall : (6,9) ;
+wall : (14,10) 4 down ;
+wall : (3,10) 7 right ;
+wall : (3,11) ;
+wall : (0,12) 4 right ;
+wall : (9,12) 2 down ;
+wall : (3,13) ;
+
+trap : (12,1) right (0,4) ;
+trap : (17,5) down (13,5) ;
+trap : (16,4) down (19,5) ;
+trap : (19,4) down (0,8) ;
+trap : (18,19) up (2,19) ;
+
+ghost : (2,3) [down,down,up,up] ;
+ghost : (4,5) [up,up,down,down] ;
+ghost : (12,4) [left,left,left,left,left] ;
+ghost : (7,5) [right,right,right,right,right] ;
+ghost : (10,7) [right,right,right,down,down,down,left,left,left,up,up,up] ;
+ghost : (16,7) [down,left,down,right,down,left,down,right,down,left,down,right] ;
+ghost : (17,7) [down,down,down,down,down,down] ;
+ghost : (18,7) [right,down,left,down,right,down,left,down,right] ;
+ghost : (0,11) [up,up,up,up] ;
+ghost : (8,13) [up,left,left,left,left,down,up,right,right,right,right,down] ;
+ghost : (13,13) [left,left,left,up,up,right,right,right,down,down] ;
+
+switch : (2,1) un ;
+switch : (3,1) deux ;
+switch : (4,1) trois ;
+switch : (17,0) quatre ;
+switch : (18,0) cinq ;
+switch : (8,2) six ;
+switch : (9,2) sept ;
+switch : (17,2) huit ;
+switch : (18,2) neuf ;
+switch : (15,4) dix ;
+switch : (3,9) onze ;
+switch : (4,9) douze ;
+switch : (5,9) treize ;
+switch : (5,13) quatorze ;
+switch : (6,13) quinze ;
+switch : (7,13) seize ;
+
+door : (5,0) un off && deux on && trois off ;
+
+door : (12,0) quatre off && cinq on && six off ;
+
+door : (12,1) huit on && neuf on ;
+door : (12,2) six on && sept off ;
+door : (16,5) dix on ;
+door : (6,8) onze off && douze on && treize on ;
+door : (1,13) quatorze off && quinze on && seize on ;
+
+
+

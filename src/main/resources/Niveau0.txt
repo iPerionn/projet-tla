@@ -1,0 +1,8 @@
+niveau 0 (44,5) (2,9); 
+wall : (5,2) ; 
+wall : (3,1) 4 up ; 
+trap : (2,3) up (4,6) ; 
+ghost : (4,7) [ up , up , right ] ; 
+switch : (9,8) italie ; 
+switch : (3,5) france ; 
+door : (9,1) italie on && france off ;

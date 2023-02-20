@@ -1,0 +1,32 @@
+Niveau 3 (0,0) (0,13) ;
+wall : (17,0) 3 right ;
+wall : (0,1) 15 right ;
+wall : (17,1) ;
+wall : (19,2) ;
+wall : (3,3) 14 right ;
+wall : (17,4) ;
+wall : (0,5) 16 right ;
+wall : (18,5) 2 right ;
+wall : (1,6) ;
+wall : (4,7) 16 right;
+wall : (0,9) 7 right ;
+wall : (11,9) 9 right ;
+wall : (19,10) 2 down ;
+wall : (0,11) 3 right ;
+wall : (6,11) 11 right ;
+wall : (3,12) 3 right ;
+trap : (9,4) right (7,4) ;
+trap : (19,3) right (9,6) ;
+ghost : (7,9) [right,right] ;
+ghost : (8,9) [right,right] ;
+switch : (7,12) zero;
+switch : (9,12) un;
+switch : (11,12) deux;
+switch : (13,12) trois;
+switch : (15,12) quatre;
+door : (3,13) un on && deux off || un on && deux on && quatre on ;
+door : (4,13) deux on ;
+door : (5,13) zero on && un off || zero off && un on ;
+
+
+

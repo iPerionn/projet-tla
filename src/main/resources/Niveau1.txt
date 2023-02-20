@@ -1,0 +1,11 @@
+Niveau 1 (0,0) (8,8) ;
+wall : (1,1) ;
+wall : (3,1) 4 down ;
+wall : (0,1);
+trap : (5,1) right (7,1);
+ghost : (5,3) [right,down,left,up];
+switch : (7,3) un ;
+switch : (8,3) deux ;
+switch : (9,3) trois ;
+switch : (10,3) quatre ;
+door : (11,3) un on || deux on && trois on || quatre on ;
